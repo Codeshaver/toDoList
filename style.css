@@ -1,0 +1,42 @@
+ /* .container{
+border: dotted;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: aqua;
+display: flex;
+align-items: center;
+margin: 50px;
+}  */
+/* h1 {
+    text-align: center;
+    align-self: center;
+}
+
+.js-form {
+    display: table;
+
+}
+input {
+    width: 500%;
+}
+
+.container #output {
+    display: table;
+    margin: 120px 0 0 0;
+    border: dotted;
+}  */ 
+
+.del {
+    margin-right: 50px;
+}
+
+.cross{
+    margin-left: 20px;
+}
+
+.strike {
+text-decoration: line-through;
+}
+
+.plain {
+    text-decoration: black;
+}
