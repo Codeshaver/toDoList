@@ -1,25 +1,10 @@
-// let button = document.getElementById('add').addEventListener('click', function(addButton)
-
-// function addButton() {
-
-// //let output= document.getElementById('output');
-// //output.innerHTML = <li></li>
-
-// }
-
-
 let form = document.getElementById("addForm");
 let submit = document.getElementById("add");
 let itemList = document.getElementById("items");
 
 
-
-
-
-// // Form submit event
 form.addEventListener('submit', addItem);
 
-// delete event
 
 itemList.addEventListener("click", removeItem);
 
@@ -34,23 +19,7 @@ function removeItem(e) {
 
 }
 
-// itemList.addEventListener("click", strikeItem);
 
-// function strikeItem(e) {
-
-//     if (e.target.classList.contains("list-group-item")) {
-//             this.itemList.className = "strike";
-//         }
-        
-//         }
-    
-    
-
-
-
-
-
-// // add item
 function addItem(e){
     e.preventDefault();
 
@@ -98,34 +67,6 @@ function strikeThrough(e){
   }
 
 }
-
-
-// create if statement function for checkbox trying to affect parent element
-
-// function lineThrough() {
-//     let checkBox = crossBtn;
-//     if (checkBox.checked == true){
-//       parentElement.className = "strike";
-//     } else {
-//        parentElement.className = "plain";
-//     }
-//   }
-// }
-
-
-
-
-
-
-// add event listener to cross button
-
-// crossBtn.addEventListener("click", strikeItem);
-
-// function strikeItem(e){
-//     crossBtn.parentElement = className("strike");
-
-
-
 
 
 
